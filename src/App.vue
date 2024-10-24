@@ -77,6 +77,10 @@ const isToday = (day) => {
 onMounted(() => {
   getToday();
 });
+
+export default {
+  name: "App",
+};
 </script>
 
 <style scoped>
